@@ -1,0 +1,17 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Static landing page for LEHAR (premium red chilli spices). Vanilla HTML, CSS, JavaScript. No build step.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}

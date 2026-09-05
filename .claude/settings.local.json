@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path . -Force | Where-Object { $_.Name -ne '.venv' -and $_.Name -ne '__pycache__' -and $_.Name -ne '.git' })"
+    ]
+  }
+}

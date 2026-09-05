@@ -1,0 +1,27 @@
+{
+  "teja_guntur": [
+    {"min_qty": 1, "max_qty": 50, "rate_per_kg": 160.0},
+    {"min_qty": 50, "max_qty": 500, "rate_per_kg": 155.0},
+    {"min_qty": 500, "max_qty": null, "rate_per_kg": 150.0}
+  ],
+  "teja_premium_guntur": [
+    {"min_qty": 1, "max_qty": 50, "rate_per_kg": 210.0},
+    {"min_qty": 50, "max_qty": 500, "rate_per_kg": 205.0},
+    {"min_qty": 500, "max_qty": null, "rate_per_kg": 200.0}
+  ],
+  "resham_patti_byadgi_blend": [
+    {"min_qty": 1, "max_qty": 50, "rate_per_kg": 300.0},
+    {"min_qty": 50, "max_qty": 500, "rate_per_kg": 295.0},
+    {"min_qty": 500, "max_qty": null, "rate_per_kg": 290.0}
+  ],
+  "pure_byadgi": [
+    {"min_qty": 1, "max_qty": 50, "rate_per_kg": 490.0},
+    {"min_qty": 50, "max_qty": 500, "rate_per_kg": 480.0},
+    {"min_qty": 500, "max_qty": null, "rate_per_kg": 470.0}
+  ],
+  "kashmiri_byadgi_kashmiri": [
+    {"min_qty": 1, "max_qty": 50, "rate_per_kg": 650.0},
+    {"min_qty": 50, "max_qty": 500, "rate_per_kg": 640.0},
+    {"min_qty": 500, "max_qty": null, "rate_per_kg": 630.0}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "price_review_days": 15,
+  "export_price_requires_manual_confirmation": true,
+  "domestic_quality_note": "Current workbook prices are for domestic quality with 7% oil and salt mixture.",
+  "lab_test_note": "For lab-test requests, state that previous batches have lab reports; do not claim the current batch has a report unless verified.",
+  "follow_up_after_days": {
+    "New": 1,
+    "Follow-up": 7,
+    "Quoted": 3,
+    "Converted": 0,
+    "Lost": 0
+  }
+}

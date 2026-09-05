@@ -1,0 +1,62 @@
+[
+  {
+    "id": "teja_guntur",
+    "name": "Teja / Guntur",
+    "cost_price": 120.0,
+    "selling_price_range": "150-160",
+    "colour": "Medium",
+    "spiciness": "Highest",
+    "shu": "25000+",
+    "asta": "80-100",
+    "price_type": "domestic",
+    "price_verified_date": null
+  },
+  {
+    "id": "teja_premium_guntur",
+    "name": "Teja premium / Guntur",
+    "cost_price": 170.0,
+    "selling_price_range": "200-210",
+    "colour": "Better than teja",
+    "spiciness": "Equal to teja",
+    "shu": "Upto 25000",
+    "asta": "upto 120",
+    "price_type": "domestic",
+    "price_verified_date": null
+  },
+  {
+    "id": "resham_patti_byadgi_blend",
+    "name": "Resham patti / Byadgi blend",
+    "cost_price": 220.0,
+    "selling_price_range": "290-300",
+    "colour": "Good red ",
+    "spiciness": "Good spicy",
+    "shu": "20000-22000",
+    "asta": "150-170",
+    "price_type": "domestic",
+    "price_verified_date": null
+  },
+  {
+    "id": "pure_byadgi",
+    "name": "Pure Byadgi",
+    "cost_price": 420.0,
+    "selling_price_range": "470 - 490",
+    "colour": "Best red",
+    "spiciness": "Medium spicy",
+    "shu": "15000 - 20000",
+    "asta": "200-220",
+    "price_type": "domestic",
+    "price_verified_date": null
+  },
+  {
+    "id": "kashmiri_byadgi_kashmiri",
+    "name": "Kashmiri byadgi / Kashmiri",
+    "cost_price": 550.0,
+    "selling_price_range": "630 - 650",
+    "colour": "Better than byadgi",
+    "spiciness": "No spicy",
+    "shu": "Upto 15000",
+    "asta": "250+",
+    "price_type": "domestic",
+    "price_verified_date": null
+  }
+]

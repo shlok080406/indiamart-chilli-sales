@@ -1,0 +1,41 @@
+[
+    {
+        "id": "20260829221608",
+        "customer": "SED Foods",
+        "contact_person": "Rahul Sharma",
+        "phone": "9876543210",
+        "email": "rahul@xyzfoods.com",
+        "location": "Mumbai",
+        "address": "",
+        "product_interest": "Red Chilli",
+        "status": "Potential",
+        "notes": "Interested in regular bulk supply",
+        "created_at": "2026-08-29 22:16:08"
+    },
+    {
+        "id": "20260829221612",
+        "customer": "SED Foods",
+        "contact_person": "Rahul Sharma",
+        "phone": "9876543210",
+        "email": "rahul@xyzfoods.com",
+        "location": "Mumbai",
+        "address": "",
+        "product_interest": "Red Chilli",
+        "status": "Potential",
+        "notes": "Interested in regular bulk supply",
+        "created_at": "2026-08-29 22:16:12"
+    },
+    {
+        "id": "20260901153043",
+        "customer": "BK Agencies",
+        "contact_person": "Devansh",
+        "phone": "9876567898",
+        "email": "devansh2006@gmail.com",
+        "location": "Hyderabad",
+        "address": "",
+        "product_interest": "Red Chillies",
+        "status": "Potential",
+        "notes": "need urgent requirement",
+        "created_at": "2026-09-01 15:30:43"
+    }
+]

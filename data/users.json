@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "7844",
+            "role": "admin",
+            "full_name": "Admin",
+            "created_at": "2026-09-02"
+        },
+        {
+            "username": "Shlok",
+            "password": "0804",
+            "role": "user",
+            "full_name": "Dumawat",
+            "created_at": "2026-09-02"
+        }
+    ]
+}

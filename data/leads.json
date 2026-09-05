@@ -1,0 +1,92 @@
+[
+  {
+    "customer": "Suraj",
+    "place": "Pune",
+    "quantity": "200 kg",
+    "remarks": "Asked for samples",
+    "delivery_address": "Nagari Masale, At post Kharada, Jamkhed, Maharashtra, 413204",
+    "date": "2026-06-03",
+    "follow_up": null
+  },
+  {
+    "customer": "Shubam",
+    "place": "Solapur",
+    "quantity": "10 kg",
+    "remarks": "Sent Samples photos",
+    "delivery_address": null,
+    "date": null,
+    "follow_up": null
+  },
+  {
+    "customer": "Naveen Madiwalar",
+    "place": "Bailhongal",
+    "quantity": "100 kg",
+    "remarks": "asked for samples",
+    "delivery_address": "Naveen Madiwalar, Akki Gali Bazar Road, Bailhongal,591102",
+    "date": "2026-06-16",
+    "follow_up": null
+  },
+  {
+    "customer": "Roopashree",
+    "place": "Bengaluru",
+    "quantity": "50 kg",
+    "remarks": "wanted red chillies",
+    "delivery_address": null,
+    "date": "2026-06-16",
+    "follow_up": null
+  },
+  {
+    "customer": "Neerati Srikanth",
+    "place": "Hyderabad",
+    "quantity": "100 kg",
+    "remarks": "Sent Samples photos",
+    "delivery_address": null,
+    "date": "2026-06-16",
+    "follow_up": null
+  },
+  {
+    "customer": "Mohammed Shamsuddin",
+    "place": "Mangalore",
+    "quantity": "1000 kg",
+    "remarks": "Sent Samples photos",
+    "delivery_address": null,
+    "date": "2026-06-19",
+    "follow_up": null
+  },
+  {
+    "customer": "Nagashree",
+    "place": "Bangalore",
+    "quantity": "100 kg",
+    "remarks": "wanted red chillies",
+    "delivery_address": null,
+    "date": "2026-06-28",
+    "follow_up": null
+  },
+  {
+    "customer": "Hasan Sadique Sayed",
+    "place": "Bhiwandi",
+    "quantity": "1000 kg",
+    "remarks": "wanted red chillies",
+    "delivery_address": null,
+    "date": "2026-06-28",
+    "follow_up": null
+  },
+  {
+    "customer": "Venkatesh",
+    "place": "Koppal",
+    "quantity": "Not Specified",
+    "remarks": "was busy, will call later",
+    "delivery_address": null,
+    "date": "2026-06-28",
+    "follow_up": null
+  },
+  {
+    "customer": "Nagaraj",
+    "place": "Bangalore",
+    "quantity": "50 kg",
+    "remarks": "wanted red chillies",
+    "delivery_address": null,
+    "date": "2026-06-28",
+    "follow_up": null
+  }
+]
