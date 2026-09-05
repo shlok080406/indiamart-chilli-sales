@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gTeja" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E63946"/><stop offset="50%" stop-color="#C80024"/><stop offset="100%" stop-color="#8B0014"/>
+    </linearGradient>
+    <linearGradient id="gTejaP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4757"/><stop offset="50%" stop-color="#D90429"/><stop offset="100%" stop-color="#A3001F"/>
+    </linearGradient>
+    <linearGradient id="gResham" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D90429"/><stop offset="60%" stop-color="#B80020"/><stop offset="100%" stop-color="#7A0014"/>
+    </linearGradient>
+    <linearGradient id="gByadgi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C80024"/><stop offset="100%" stop-color="#5C000F"/>
+    </linearGradient>
+    <linearGradient id="gKash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3355"/><stop offset="60%" stop-color="#D90429"/><stop offset="100%" stop-color="#9A001A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="55%" r="45%">
+      <stop offset="0%" stop-color="#D90429" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#D90429" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Teja: long thin -->
+    <symbol id="sT" viewBox="-55 -105 110 210">
+      <path d="M 0 -100 C 9 -84 15 -63 19 -42 C 23 -11 25 32 23 63 C 21 83 13 96 0 98 C -13 96 -21 83 -23 63 C -25 32 -23 -11 -19 -42 C -15 -63 -9 -84 0 -100 Z" fill="url(#gTeja)"/>
+      <path d="M 0 -100 C 5 -88 7 -77 9 -66" stroke="#3D0008" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-5" cy="-22" rx="3.5" ry="15" fill="#FFFFFF" opacity="0.18"/>
+      <path d="M -3 -95 C 0 -104 5 -106 9 -102" stroke="#2D5A1E" stroke-width="7" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Teja Premium: brighter -->
+    <symbol id="sTP" viewBox="-55 -105 110 210">
+      <path d="M 0 -100 C 9 -84 15 -63 19 -42 C 23 -11 25 32 23 63 C 21 83 13 96 0 98 C -13 96 -21 83 -23 63 C -25 32 -23 -11 -19 -42 C -15 -63 -9 -84 0 -100 Z" fill="url(#gTejaP)"/>
+      <path d="M 0 -100 C 5 -88 7 -77 9 -66" stroke="#5C000F" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-5" cy="-22" rx="3.5" ry="15" fill="#FFFFFF" opacity="0.25"/>
+      <path d="M -3 -95 C 0 -104 5 -106 9 -102" stroke="#3A6B26" stroke-width="7" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Resham: long, wrinkled -->
+    <symbol id="sR" viewBox="-55 -115 110 230">
+      <path d="M 0 -110 C 11 -92 19 -68 23 -44 C 27 -11 29 33 25 70 C 21 91 13 103 0 105 C -13 103 -21 91 -25 70 C -29 33 -27 -11 -23 -44 C -19 -68 -11 -92 0 -110 Z" fill="url(#gResham)"/>
+      <path d="M -9 -62 Q 0 -57 9 -62 M -11 -32 Q 0 -27 11 -32 M -11 -2 Q 0 3 11 -2 M -9 28 Q 0 33 9 28 M -7 58 Q 0 63 7 58" stroke="#5C000F" stroke-width="1.8" fill="none" opacity="0.5"/>
+      <ellipse cx="-5" cy="-22" rx="3.5" ry="18" fill="#FFFFFF" opacity="0.14"/>
+      <path d="M -3 -105 C 0 -114 5 -116 9 -112" stroke="#2D5A1E" stroke-width="7" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Byadgi: plump, deep -->
+    <symbol id="sB" viewBox="-55 -105 110 210">
+      <path d="M 0 -100 C 15 -84 23 -58 27 -31 C 31 1 31 32 27 58 C 23 81 15 96 0 98 C -15 96 -23 81 -27 58 C -31 32 -31 1 -27 -31 C -23 -58 -15 -84 0 -100 Z" fill="url(#gByadgi)"/>
+      <ellipse cx="-6" cy="-16" rx="4" ry="21" fill="#FFFFFF" opacity="0.2"/>
+      <path d="M -3 -95 C 0 -105 6 -108 10 -104" stroke="#2D5A1E" stroke-width="7" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Kashmiri: short, round -->
+    <symbol id="sK" viewBox="-55 -95 110 190">
+      <path d="M 0 -90 C 19 -74 29 -48 31 -21 C 33 11 29 42 23 63 C 17 82 9 92 0 92 C -9 92 -17 82 -23 63 C -29 42 -33 11 -31 -21 C -29 -48 -19 -74 0 -90 Z" fill="url(#gKash)"/>
+      <ellipse cx="-7" cy="-11" rx="5" ry="23" fill="#FFFFFF" opacity="0.24"/>
+      <path d="M -3 -85 C 0 -95 6 -98 10 -94" stroke="#3A6B26" stroke-width="7" fill="none" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1400" fill="#111418"/>
+  <!-- Glow under pile -->
+  <ellipse cx="600" cy="750" rx="520" ry="420" fill="url(#glow)"/>
+
+  <!-- All chillies positioned relative to centre (600, 700) -->
+  <g transform="translate(600 700)">
+
+    <!-- Back layer -->
+    <use href="#sT"   x="-300" y="-320" width="130" height="260" transform="rotate(-38 -235 -190)"/>
+    <use href="#sT"   x="170"  y="-300" width="125" height="250" transform="rotate(40 232 -175)"/>
+    <use href="#sR"   x="-210" y="-370" width="130" height="280" transform="rotate(-18 -145 -230)"/>
+    <use href="#sR"   x="90"   y="-360" width="125" height="270" transform="rotate(22 152 -225)"/>
+    <use href="#sB"   x="-400" y="-195" width="150" height="235" transform="rotate(-62 -325 -78)"/>
+    <use href="#sB"   x="260"  y="-175" width="150" height="235" transform="rotate(62 335 -58)"/>
+    <use href="#sK"   x="-110" y="-400" width="170" height="230" transform="rotate(-2 -25 -285)"/>
+    <use href="#sK"   x="-470" y="-90"  width="160" height="215" transform="rotate(-77 -390 20)"/>
+    <use href="#sK"   x="320"  y="-70"  width="160" height="215" transform="rotate(77 400 42)"/>
+
+    <!-- Middle layer -->
+    <use href="#sT"   x="-170" y="-115" width="140" height="280" transform="rotate(-22 -100 25)"/>
+    <use href="#sT"   x="65"   y="-95"  width="135" height="270" transform="rotate(27 132 40)"/>
+    <use href="#sR"   x="-105" y="55"   width="140" height="300" transform="rotate(-9 -35 205)"/>
+    <use href="#sB"   x="-315" y="90"   width="160" height="255" transform="rotate(-52 -235 217)"/>
+    <use href="#sB"   x="180"  y="110"  width="160" height="255" transform="rotate(52 260 237)"/>
+
+    <!-- Front layer (closest to viewer) -->
+    <use href="#sTP"  x="-235" y="215"  width="130" height="260" transform="rotate(16 -170 345)"/>
+    <use href="#sTP"  x="-55"  y="235"  width="135" height="270" transform="rotate(-13 -12 370)"/>
+    <use href="#sK"   x="125"  y="255"  width="150" height="205" transform="rotate(27 200 357)"/>
+    <use href="#sB"   x="-415" y="255"  width="145" height="230" transform="rotate(-32 -342 371)"/>
+    <use href="#sR"   x="275"  y="215"  width="125" height="265" transform="rotate(37 337 348)"/>
+  </g>
+</svg>
