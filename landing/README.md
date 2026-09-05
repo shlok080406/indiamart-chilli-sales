@@ -26,11 +26,11 @@ cd ..
 streamlit run app/dashboard.py   # then open http://localhost:8501
 ```
 
-The "Open the app" button currently points at `http://localhost:8501`.
+The "Open the app" button points at the deployed Streamlit app: <https://lehar-chilli-sales.streamlit.app>.
 
 ## Deploy
 
-Vercel, Netlify, and GitHub Pages are all drop-in. After deployment, replace the four `http://localhost:8501` references in `index.html` with your production app URL.
+Vercel, Netlify, and GitHub Pages are all drop-in. The `index.html` already points at the deployed Streamlit app at <https://lehar-chilli-sales.streamlit.app>. If you fork this and use a different Streamlit URL, update the four `lehar-chilli-sales.streamlit.app` references in `index.html` with yours.
 
 ```bash
 # Vercel
