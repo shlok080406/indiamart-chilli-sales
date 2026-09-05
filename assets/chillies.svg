@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- Shared gradients ============================================ -->
+    <linearGradient id="chilliTeja" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="50%" stop-color="#C80024"/>
+      <stop offset="100%" stop-color="#8B0014"/>
+    </linearGradient>
+    <linearGradient id="chilliTejaPremium" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4757"/>
+      <stop offset="50%" stop-color="#D90429"/>
+      <stop offset="100%" stop-color="#A3001F"/>
+    </linearGradient>
+    <linearGradient id="chilliResham" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D90429"/>
+      <stop offset="60%" stop-color="#B80020"/>
+      <stop offset="100%" stop-color="#7A0014"/>
+    </linearGradient>
+    <linearGradient id="chilliByadgi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C80024"/>
+      <stop offset="100%" stop-color="#5C000F"/>
+    </linearGradient>
+    <linearGradient id="chilliKashmiri" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3355"/>
+      <stop offset="60%" stop-color="#D90429"/>
+      <stop offset="100%" stop-color="#9A001A"/>
+    </linearGradient>
+    <linearGradient id="bgWash" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E1E"/>
+      <stop offset="100%" stop-color="#111418"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D90429" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#D90429" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Reusable single-chilli paths (rotated and translated per use) -->
+    <!-- Teja: long, thin, slightly curved -->
+    <symbol id="chilliTejaShape" viewBox="-50 -100 100 200">
+      <path d="M 0 -95 C 8 -80 14 -60 18 -40 C 22 -10 24 30 22 60 C 20 80 12 92 0 95 C -12 92 -20 80 -22 60 C -24 30 -22 -10 -18 -40 C -14 -60 -8 -80 0 -95 Z" fill="url(#chilliTeja)"/>
+      <path d="M 0 -95 C 4 -85 6 -75 8 -65" stroke="#3D0008" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-4" cy="-20" rx="3" ry="14" fill="#FFFFFF" opacity="0.15"/>
+      <path d="M -3 -90 C 0 -98 4 -100 8 -96" stroke="#2D5A1E" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Teja Premium: same shape, brighter -->
+    <symbol id="chilliTejaPremiumShape" viewBox="-50 -100 100 200">
+      <path d="M 0 -95 C 8 -80 14 -60 18 -40 C 22 -10 24 30 22 60 C 20 80 12 92 0 95 C -12 92 -20 80 -22 60 C -24 30 -22 -10 -18 -40 C -14 -60 -8 -80 0 -95 Z" fill="url(#chilliTejaPremium)"/>
+      <path d="M 0 -95 C 4 -85 6 -75 8 -65" stroke="#5C000F" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="-4" cy="-20" rx="3" ry="14" fill="#FFFFFF" opacity="0.22"/>
+      <path d="M -3 -90 C 0 -98 4 -100 8 -96" stroke="#3A6B26" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Resham Patti: longer, slightly wider, with subtle wrinkle lines -->
+    <symbol id="chilliReshamShape" viewBox="-50 -110 100 220">
+      <path d="M 0 -105 C 10 -88 18 -65 22 -42 C 26 -10 28 32 24 68 C 20 88 12 100 0 102 C -12 100 -20 88 -24 68 C -28 32 -26 -10 -22 -42 C -18 -65 -10 -88 0 -105 Z" fill="url(#chilliResham)"/>
+      <path d="M -8 -60 Q 0 -55 8 -60 M -10 -30 Q 0 -25 10 -30 M -10 0 Q 0 5 10 0 M -8 30 Q 0 35 8 30 M -6 60 Q 0 65 6 60" stroke="#5C000F" stroke-width="1.5" fill="none" opacity="0.5"/>
+      <ellipse cx="-5" cy="-20" rx="3" ry="18" fill="#FFFFFF" opacity="0.12"/>
+      <path d="M -3 -100 C 0 -108 4 -110 8 -106" stroke="#2D5A1E" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Pure Byadgi: plump, shorter, deep crimson -->
+    <symbol id="chilliByadgiShape" viewBox="-50 -100 100 200">
+      <path d="M 0 -95 C 14 -80 22 -55 26 -30 C 30 0 30 30 26 55 C 22 78 14 92 0 95 C -14 92 -22 78 -26 55 C -30 30 -30 0 -26 -30 C -22 -55 -14 -80 0 -95 Z" fill="url(#chilliByadgi)"/>
+      <ellipse cx="-6" cy="-15" rx="4" ry="20" fill="#FFFFFF" opacity="0.18"/>
+      <path d="M -3 -90 C 0 -100 6 -102 10 -98" stroke="#2D5A1E" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Kashmiri: short, round, almost heart-shaped -->
+    <symbol id="chilliKashmiriShape" viewBox="-50 -90 100 180">
+      <path d="M 0 -85 C 18 -70 28 -45 30 -20 C 32 10 28 40 22 60 C 16 78 8 88 0 88 C -8 88 -16 78 -22 60 C -28 40 -32 10 -30 -20 C -28 -45 -18 -70 0 -85 Z" fill="url(#chilliKashmiri)"/>
+      <ellipse cx="-7" cy="-10" rx="5" ry="22" fill="#FFFFFF" opacity="0.22"/>
+      <path d="M -3 -80 C 0 -90 6 -92 10 -88" stroke="#3A6B26" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <!-- ================================================================
+       VARIETY 1: TEJA / GUNTUR (long, thin, hottest)
+  ================================================================ -->
+  <svg viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="url(#bgWash)"/>
+    <g transform="translate(400 300)">
+      <use href="#chilliTejaShape" x="-200" y="-180" width="100" height="200" transform="rotate(-25 -150 -80)"/>
+      <use href="#chilliTejaShape" x="-50" y="-220" width="110" height="220" transform="rotate(8 5 -110)"/>
+      <use href="#chilliTejaShape" x="80" y="-200" width="95" height="190" transform="rotate(28 127 -105)"/>
+      <use href="#chilliTejaShape" x="-220" y="-40" width="90" height="180" transform="rotate(-55 -175 50)"/>
+      <use href="#chilliTejaShape" x="120" y="-30" width="95" height="190" transform="rotate(45 167 65)"/>
+      <use href="#chilliTejaShape" x="-30" y="20" width="100" height="200" transform="rotate(-8 20 120)"/>
+      <use href="#chilliTejaShape" x="-180" y="80" width="85" height="170" transform="rotate(75 -137 165)"/>
+      <use href="#chilliTejaShape" x="60" y="100" width="90" height="180" transform="rotate(-65 105 190)"/>
+    </g>
+  </svg>
+
+  <!-- ================================================================
+       VARIETY 2: TEJA PREMIUM (same shape, brighter red)
+  ================================================================ -->
+  <svg viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="url(#bgWash)"/>
+    <circle cx="400" cy="300" r="280" fill="url(#heroGlow)"/>
+    <g transform="translate(400 300)">
+      <use href="#chilliTejaPremiumShape" x="-180" y="-200" width="105" height="210" transform="rotate(-22 -127 -95)"/>
+      <use href="#chilliTejaPremiumShape" x="-40" y="-230" width="110" height="220" transform="rotate(12 15 -120)"/>
+      <use href="#chilliTejaPremiumShape" x="90" y="-210" width="100" height="200" transform="rotate(35 140 -110)"/>
+      <use href="#chilliTejaPremiumShape" x="-240" y="-30" width="95" height="190" transform="rotate(-60 -192 65)"/>
+      <use href="#chilliTejaPremiumShape" x="140" y="-20" width="100" height="200" transform="rotate(50 190 80)"/>
+      <use href="#chilliTejaPremiumShape" x="-20" y="30" width="105" height="210" transform="rotate(-5 32 135)"/>
+      <use href="#chilliTejaPremiumShape" x="-160" y="90" width="90" height="180" transform="rotate(80 -115 180)"/>
+      <use href="#chilliTejaPremiumShape" x="70" y="110" width="95" height="190" transform="rotate(-70 117 205)"/>
+    </g>
+  </svg>
+
+  <!-- ================================================================
+       VARIETY 3: RESHAM PATTI (longer, wrinkled)
+  ================================================================ -->
+  <svg viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="url(#bgWash)"/>
+    <g transform="translate(400 300)">
+      <use href="#chilliReshamShape" x="-200" y="-190" width="100" height="220" transform="rotate(-30 -150 -80)"/>
+      <use href="#chilliReshamShape" x="-50" y="-220" width="105" height="230" transform="rotate(5 2 -105)"/>
+      <use href="#chilliReshamShape" x="80" y="-200" width="95" height="210" transform="rotate(32 127 -95)"/>
+      <use href="#chilliReshamShape" x="-230" y="-50" width="90" height="200" transform="rotate(-58 -185 50)"/>
+      <use href="#chilliReshamShape" x="130" y="-30" width="100" height="220" transform="rotate(48 180 80)"/>
+      <use href="#chilliReshamShape" x="-30" y="20" width="100" height="220" transform="rotate(-10 20 130)"/>
+      <use href="#chilliReshamShape" x="-180" y="80" width="85" height="190" transform="rotate(72 -137 175)"/>
+      <use href="#chilliReshamShape" x="60" y="100" width="90" height="200" transform="rotate(-68 105 200)"/>
+    </g>
+  </svg>
+
+  <!-- ================================================================
+       VARIETY 4: PURE BYADGI (plump, deep crimson)
+  ================================================================ -->
+  <svg viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="url(#bgWash)"/>
+    <g transform="translate(400 300)">
+      <use href="#chilliByadgiShape" x="-220" y="-160" width="120" height="200" transform="rotate(-20 -160 -60)"/>
+      <use href="#chilliByadgiShape" x="-60" y="-200" width="130" height="220" transform="rotate(10 5 -90)"/>
+      <use href="#chilliByadgiShape" x="100" y="-180" width="120" height="200" transform="rotate(30 160 -80)"/>
+      <use href="#chilliByadgiShape" x="-250" y="-30" width="110" height="180" transform="rotate(-55 -195 60)"/>
+      <use href="#chilliByadgiShape" x="140" y="-10" width="120" height="200" transform="rotate(45 200 90)"/>
+      <use href="#chilliByadgiShape" x="-30" y="30" width="125" height="210" transform="rotate(-5 32 135)"/>
+      <use href="#chilliByadgiShape" x="-180" y="100" width="105" height="175" transform="rotate(75 -127 187)"/>
+      <use href="#chilliByadgiShape" x="80" y="120" width="110" height="180" transform="rotate(-65 135 210)"/>
+    </g>
+  </svg>
+
+  <!-- ================================================================
+       VARIETY 5: KASHMIRI (short, round, bright)
+  ================================================================ -->
+  <svg viewBox="0 0 800 600" width="800" height="600">
+    <rect width="800" height="600" fill="url(#bgWash)"/>
+    <g transform="translate(400 300)">
+      <use href="#chilliKashmiriShape" x="-220" y="-140" width="140" height="180" transform="rotate(-25 -150 -50)"/>
+      <use href="#chilliKashmiriShape" x="-70" y="-180" width="150" height="200" transform="rotate(5 5 -80)"/>
+      <use href="#chilliKashmiriShape" x="100" y="-160" width="140" height="180" transform="rotate(30 170 -70)"/>
+      <use href="#chilliKashmiriShape" x="-250" y="0" width="130" height="170" transform="rotate(-50 -185 85)"/>
+      <use href="#chilliKashmiriShape" x="130" y="10" width="140" height="180" transform="rotate(50 200 100)"/>
+      <use href="#chilliKashmiriShape" x="-30" y="50" width="145" height="195" transform="rotate(-10 42 147)"/>
+      <use href="#chilliKashmiriShape" x="-180" y="120" width="120" height="160" transform="rotate(70 -120 200)"/>
+      <use href="#chilliKashmiriShape" x="70" y="130" width="125" height="165" transform="rotate(-60 132 212)"/>
+    </g>
+  </svg>
+
+  <!-- ================================================================
+       HERO: dramatic mixed pile
+  ================================================================ -->
+  <svg viewBox="0 0 1200 1400" width="1200" height="1400">
+    <rect width="1200" height="1400" fill="url(#bgWash)"/>
+    <ellipse cx="600" cy="700" rx="500" ry="400" fill="url(#heroGlow)"/>
+    <g transform="translate(600 700)">
+      <!-- Back layer (slightly larger) -->
+      <use href="#chilliTejaShape" x="-280" y="-300" width="120" height="240" transform="rotate(-35 -220 -180)"/>
+      <use href="#chilliTejaShape" x="160" y="-280" width="115" height="230" transform="rotate(38 217 -165)"/>
+      <use href="#chilliReshamShape" x="-200" y="-350" width="120" height="260" transform="rotate(-15 -140 -220)"/>
+      <use href="#chilliReshamShape" x="80" y="-340" width="115" height="250" transform="rotate(20 137 -215)"/>
+      <use href="#chilliByadgiShape" x="-380" y="-180" width="140" height="220" transform="rotate(-60 -310 -70)"/>
+      <use href="#chilliByadgiShape" x="240" y="-160" width="140" height="220" transform="rotate(60 310 -50)"/>
+      <use href="#chilliKashmiriShape" x="-100" y="-380" width="160" height="220" transform="rotate(0 -20 -270)"/>
+      <use href="#chilliKashmiriShape" x="-450" y="-80" width="150" height="200" transform="rotate(-75 -375 20)"/>
+      <use href="#chilliKashmiriShape" x="300" y="-60" width="150" height="200" transform="rotate(75 375 40)"/>
+
+      <!-- Middle layer -->
+      <use href="#chilliTejaShape" x="-160" y="-100" width="130" height="260" transform="rotate(-20 -95 30)"/>
+      <use href="#chilliTejaShape" x="60" y="-80" width="125" height="250" transform="rotate(25 122 45)"/>
+      <use href="#chilliReshamShape" x="-100" y="50" width="130" height="280" transform="rotate(-8 -35 190)"/>
+      <use href="#chilliByadgiShape" x="-300" y="80" width="150" height="240" transform="rotate(-50 -225 200)"/>
+      <use href="#chilliByadgiShape" x="170" y="100" width="150" height="240" transform="rotate(50 245 220)"/>
+
+      <!-- Front layer (closest to viewer) -->
+      <use href="#chilliTejaPremiumShape" x="-220" y="200" width="120" height="240" transform="rotate(15 -160 320)"/>
+      <use href="#chilliTejaPremiumShape" x="-50" y="220" width="125" height="250" transform="rotate(-12 -12 345)"/>
+      <use href="#chilliKashmiriShape" x="120" y="240" width="140" height="190" transform="rotate(25 190 335)"/>
+      <use href="#chilliByadgiShape" x="-400" y="240" width="135" height="215" transform="rotate(-30 -332 347)"/>
+      <use href="#chilliReshamShape" x="260" y="200" width="115" height="245" transform="rotate(35 317 322)"/>
+    </g>
+  </svg>
+</svg>

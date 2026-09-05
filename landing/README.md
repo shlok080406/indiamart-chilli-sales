@@ -1,6 +1,6 @@
 # LEHAR | Landing Page
 
-Static landing page for LEHAR (premium red chilli spices). Vanilla HTML, CSS, JavaScript. No build step.
+Static landing page for LEHAR (premium red chilli powder by Vijaylaxmi Trading Company, Gadag, Karnataka). Vanilla HTML, CSS, JavaScript. No build step.
 
 ## Files
 

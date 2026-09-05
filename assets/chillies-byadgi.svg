@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gByadgi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C80024"/><stop offset="100%" stop-color="#5C000F"/>
+    </linearGradient>
+    <linearGradient id="bgWash" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E1E"/><stop offset="100%" stop-color="#111418"/>
+    </linearGradient>
+    <symbol id="chilli" viewBox="-55 -105 110 210">
+      <path d="M 0 -100 C 15 -84 23 -58 27 -31 C 31 1 31 32 27 58 C 23 81 15 96 0 98 C -15 96 -23 81 -27 58 C -31 32 -31 1 -27 -31 C -23 -58 -15 -84 0 -100 Z" fill="url(#gByadgi)"/>
+      <ellipse cx="-6" cy="-16" rx="4" ry="21" fill="#FFFFFF" opacity="0.2"/>
+      <path d="M -3 -95 C 0 -105 6 -108 10 -104" stroke="#2D5A1E" stroke-width="7" fill="none" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgWash)"/>
+  <g transform="translate(400 300)">
+    <use href="#chilli" x="-220" y="-160" width="120" height="200" transform="rotate(-20 -160 -60)"/>
+    <use href="#chilli" x="-60"  y="-200" width="130" height="220" transform="rotate(10 5 -90)"/>
+    <use href="#chilli" x="100"  y="-180" width="120" height="200" transform="rotate(30 160 -80)"/>
+    <use href="#chilli" x="-250" y="-30"  width="110" height="180" transform="rotate(-55 -195 60)"/>
+    <use href="#chilli" x="140"  y="-10"  width="120" height="200" transform="rotate(45 200 90)"/>
+    <use href="#chilli" x="-30"  y="30"   width="125" height="210" transform="rotate(-5 32 135)"/>
+    <use href="#chilli" x="-180" y="100"  width="105" height="175" transform="rotate(75 -127 187)"/>
+    <use href="#chilli" x="80"   y="120"  width="110" height="180" transform="rotate(-65 135 210)"/>
+  </g>
+</svg>
